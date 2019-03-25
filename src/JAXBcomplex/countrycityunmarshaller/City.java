@@ -25,9 +25,8 @@ public class City {
 
     @Override
     public String toString() {
-        return "\n" + " { " +
+        return "\n" +
                 "name = " + name + "\n" +
-                " population = " + population + "\n" +
-                '}';
+                " population = " + population + "\n";
     }
 }

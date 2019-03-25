@@ -52,11 +52,10 @@ public class Country {
 
     @Override
     public String toString() {
-        return "Country { " +
+        return "Country " +
                 "name=" + name + "\n" +
                 " capital=" + capital + "\n" +
                 " climate=" + climate + "\n" +
-                " cities=" + cities.toString() + "\n" +
-                '}';
+                " cities=" + cities.toString() + "\n";
     }
 }

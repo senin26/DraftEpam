@@ -25,8 +25,7 @@ public class Order {
 
     @Override
     public String toString() {
-        return "Order{" +
-                "countries=" + countries.toString() +
-                '}';
+        return "Order \n" +
+                "countries=" + countries.toString();
     }
 }

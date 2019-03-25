@@ -6,8 +6,8 @@ import javax.xml.bind.Unmarshaller;
 import java.io.*;
 
 public class ApplicationCountryCity {
-    public void unmarshallExample() throws JAXBException{
-        File file = new File("\\resources\\init_data2.xml");
+    public void unmarshallExample() throws JAXBException {
+        File file = new File("resources\\init_data2.xml");
 
         BufferedInputStream bis = null;
         StringBuilder xml = new StringBuilder();
