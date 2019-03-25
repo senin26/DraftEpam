@@ -17,16 +17,6 @@ public class Country {
      Climate climate;
     List<City> cities = new ArrayList<City>();
 
-    /*public Country() {
-
-    }
-
-    public void appendCountryData(String name, String capital, Climate climate) {
-        this.setName(name);
-        this.setCapital(capital);
-        this.setClimate(climate);
-    }*/
-
     public String getName() {
         return name;
     }

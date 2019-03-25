@@ -1,23 +1,17 @@
 package JAXBcomplex.countrycityUnmarshallerlight;
 
-import JAXBcomplex.countrycityunmarshaller.Order;
-
 import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;
-import javax.xml.bind.Marshaller;
 import javax.xml.bind.Unmarshaller;
 import java.io.BufferedInputStream;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.StringReader;
-import java.text.ParseException;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 
 public class ApplicationCountryCity {
 
-    public void unmarshallExample() throws JAXBException{
-        File file = new File("E:\\Serj\\EPAM\\Drafts\\resources\\init_data.xml");
+    public void unmarshallExample() throws JAXBException {
+        File file = new File("resources\\init_data.xml");
         BufferedInputStream bis = null;
         StringBuilder xml = new StringBuilder();
         int next;
@@ -42,12 +36,10 @@ public class ApplicationCountryCity {
 
     public static void main(String[] args) {
         ApplicationCountryCity instance = new ApplicationCountryCity();
-       //instance.marshallExample();
         try {
             instance.unmarshallExample();
         } catch (JAXBException e) {
             e.printStackTrace();
         }
-        System.out.println("\nDone");
     }
 }
