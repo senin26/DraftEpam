@@ -1,0 +1,139 @@
+    <countries>
+        <country>
+            <name>Russia</name>
+            <climate>cold</climate>
+            <capital>Moscow</capital>
+            <cities>
+                <city size="BIG_CITY">
+                    <name>Saint-Petersburg</name>
+                    <population>5000000</population>
+                </city>
+
+                <city size="BIG_CITY">
+                    <name>Sochi</name>
+                    <population>365000</population>
+                </city>
+
+                <city size="BIG_CITY">
+                    <name>Moscow</name>
+                    <population>12000000</population>
+                </city>
+
+                <city size="BIG_CITY">
+                    <name>Yekaterinburg</name>
+                    <population>1400000</population>
+                </city>
+
+                <city size="BIG_CITY">
+                    <name>Nalchik</name>
+                    <population>240000</population>
+                </city>
+
+                <city size="SMALL_CITY">
+                    <name>Pyatigorsk</name>
+                    <population>145000</population>
+                </city>
+
+                <city size="SMALL_CITY">
+                    <name>Kirovsk</name>
+                    <population>27000</population>
+                </city>
+            </cities>
+        </country>
+
+        <country>
+            <name>USA</name>
+            <climate>warm</climate>
+            <capital>Washington</capital>
+            <cities>
+                <city size="BIG_CITY">
+                    <name>New-York</name>
+                    <population>8400000</population>
+                </city>
+
+                <city size="BIG_CITY">
+                    <name>Charlotte</name>
+                    <population>860000</population>
+                </city>
+
+                <city size="BIG_CITY">
+                    <name>Omaha</name>
+                    <population>470000</population>
+                </city>
+
+                <city size="BIG_CITY">
+                    <name>Chicago</name>
+                    <population>2700000</population>
+                </city>
+            </cities>
+        </country>
+
+        <country>
+            <name>Netherlands</name>
+            <climate>medium</climate>
+            <capital>Amsterdam</capital>
+            <cities>
+                <city size="BIG_CITY">
+                    <name>Amsterdam</name>
+                    <population>820000</population>
+                </city>
+
+                <city size="BIG_CITY">
+                    <name>Rotterdam</name>
+                    <population>620000</population>
+                </city>
+
+                <city size="SMALL_CITY">
+                    <name>Delft</name>
+                    <population>100000</population>
+                </city>
+            </cities>
+        </country>
+
+        <country>
+            <name>Belgium</name>
+            <climate>medium</climate>
+            <capital>Brussels</capital>
+            <cities>
+                <city size="BIG_CITY">
+                    <name>Antwerpen</name>
+                    <population>500000</population>
+                </city>
+
+                <city  size="SMALL_CITY">
+                    <name>Ghent</name>
+                    <population>250000</population>
+                </city>
+            </cities>
+        </country>
+
+        <country>
+            <name>Turkey</name>
+            <climate>warm</climate>
+            <capital>Ancara</capital>
+            <cities>
+                <city size="BIG_CITY">
+                    <name>Instanbul</name>
+                    <population>15000000</population>
+                </city>
+
+                <city size="BIG_CITY">
+                    <name>Antalya</name>
+                    <population>2300000</population>
+                </city>
+            </cities>
+        </country>
+
+        <country>
+            <name>Finland</name>
+            <climate>cold</climate>
+            <capital>Helsinki</capital>
+            <cities>
+                <city size="BIG_CITY">
+                    <name>Helsinki</name>
+                    <population>640000</population>
+                </city>
+            </cities>
+        </country>
+
+    </countries>
